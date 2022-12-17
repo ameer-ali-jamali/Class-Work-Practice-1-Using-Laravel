@@ -10,15 +10,16 @@
 
 <body>
     <center>
-        <form action="{{ URL::TO('submit') }}" method="post">
+        <form action="{{ URL::to('user') }}" method="post">
             @csrf
+
             Name : <input type="text" name="name" id="">&nbsp;
             <br>
             Email : <input type="text" name="email" id="">
             Password : <input type="text" name="pass" id="">
             <br>
             <hr>
-            <input type="submit" name="submit" id="" value="Submit">
+            <input type="submit" name="submit" id="">
         </form>
     </center>
 </body>

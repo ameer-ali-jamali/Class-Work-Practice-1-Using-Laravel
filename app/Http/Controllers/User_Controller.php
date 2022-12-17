@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class User_controller extends Controller
 {
-    public function submit(Request $obj)
+    public function fn(Request $obj)
     {
-        return "hello";
+        echo "Data Submited";
     }
 }

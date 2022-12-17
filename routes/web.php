@@ -20,6 +20,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/submit', [controller1::class, 'submit']);
+Route::post('/user', [User_controller::class, 'fn']);
 
-Route::get('user', 'User_controller@submit');
+// Route::get('user', 'User_controller@submit');
