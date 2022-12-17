@@ -7,7 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-
-
+    <center>
+    <form action="" method="post">
+        Name : <input type="text" name="name" id="">&nbsp;
+        <br>
+        Email : <input type="text" name="email" id="">
+        Password : <input type="text" name="pass" id="">
+        <br>
+        <hr>
+        <input type="submit" name="submit" id="">
+    </form>
+</center>
 </body>
 </html>
