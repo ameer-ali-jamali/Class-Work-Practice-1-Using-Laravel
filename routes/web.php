@@ -21,5 +21,3 @@ Route::get('/', function () {
 });
 
 Route::post('/user', [User_controller::class, 'fn']);
-
-// Route::get('user', 'User_controller@submit');
